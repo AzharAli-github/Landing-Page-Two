@@ -1,0 +1,58 @@
+/* Section One Styling Starts From Here */
+
+.secOne .carousel-caption {
+    bottom: 10rem;
+}
+
+a.nav-link.fs-5 {
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+a.nav-link.fs-5:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    transition: all ease 0.5s;
+}
+
+.carousel-item.active {
+    height: 80vh;
+}
+
+
+/* Section Two Styling Starts From Here */
+
+.secTwo {
+    background-image: url(../images/cardBackground.jpg);
+    background-size: cover;
+}
+
+
+/* Images Inside Card Height and Width */
+
+.card-img-top {
+    height: 10rem;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+
+/* Footer Section Styling */
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+/* Section Three Starts from Here */
+
+@media(max-width:769px) {
+    .carousel-item.active {
+        height: auto;
+    }
+}
